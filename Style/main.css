@@ -1,0 +1,63 @@
+@import url('../Style/font.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    place-content: center;
+}
+h1{
+    text-align: center;
+    padding: 30px 0;
+}
+.content{
+    margin: 50px 0;
+    width: 1194px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(216, 212, 212);
+    border-radius: 10px;
+}
+.info{
+    padding: 50px 0;
+    width: 1110px;
+}
+.table{
+    width: 1110px;
+    height: 540px;
+}
+th, td {
+    width: 158px;
+    border: 1px solid rgb(158, 156, 156);
+    text-align: center;
+    border-radius: 10px;
+}
+td{
+    font-family: 'RR';
+    font-weight: 900;
+}
+tr{
+    cursor: pointer;
+    transition: .5s;
+}
+tr th{
+    font-family: 'RB';
+    font-weight: 700;
+}
+ul{
+    display: grid;
+    row-gap: 10px;
+}
+p{
+    font-family: 'RB';
+    font-weight: 900;
+}
